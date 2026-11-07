@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.popularBooksFlex {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; 
+  gap: 135px;
+  overflow-x: auto;  
+  overflow-y: hidden;
+  padding: 20px 50px; 
+  padding-left: 155px;
+
+  scrollbar-width: none;
+}
+
+
+.popularBookContainer {
+  flex-shrink: 0;    
+  width: 80vw;       
+  height: 550px;
+  display: grid;
+  grid-template-columns: 33% 67%;
+  border-radius: 20px;
+  padding: 15px;
+  align-items: center;
+  background-color: rgb(19, 31, 63);
+}
+
+.populareBookData {
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr 1fr 1fr;
+  margin-top: 20px;
+  height: 550px;
+  width: 90%;
+  margin-left: -60px;
+  color: rgb(236, 236, 236);
+  font-family: "Nunito", sans-serif;
+  margin-top: -15px;
+}
+
+img {
+  border: 1px rgb(90, 90, 90) solid;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.populareBookData h1 {
+  font-size: 45px;
+  font-weight: 700; 
+}
+
+.populareBookData p {
+  font-size: 25px;
+  font-weight: 800; 
+}
+
+.populareBookData h2 {
+  font-size: 15px;
+  font-weight: 500; 
+}
+
+.populareBookData h3 {
+  font-size: 20px;
+  font-weight: 800; 
+}

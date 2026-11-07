@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+header {
+  background-color: rgba(19, 31, 63, 0.85);
+  backdrop-filter: blur(12px);
+  color: rgb(236, 236, 236);
+  font-size: 12px;
+  font-weight: 400;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.headerContent {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 200px 1fr 140px 120px 200px;
+  gap: 40px;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  margin-left: 20px;
+  font-size: 1.3rem;
+}
+
+.signButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.signButtons button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  background-color: purple;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.inputIcon {
+  position: relative;
+}
+
+.inputIcon input {
+  padding: 10px;
+  border: 3px solid rgb(255, 255, 255, 0.2);
+  border-radius: 18px;
+  height: 20px;
+  background-color: rgb(0, 0, 0, 0.3);
+  color: rgb(170, 170, 170);
+  width: calc(100% - 22px);
+  margin: 0;
+  font-size: 1rem;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
